@@ -2,28 +2,18 @@
 project to detect the number plate of a vehical using python code and ocr library 
 OCR Project - README.md
 This project provides a basic Optical Character Recognition (OCR) application using Python libraries.
+# Optical Character Recognition (OCR) with OpenCV and EasyOCR
 
-Installation
-Prerequisites:
+This repository contains a Python script for performing Optical Character Recognition (OCR) on images using OpenCV and EasyOCR libraries.
 
-Python 3.x (https://www.python.org/downloads/)
-pip (usually comes bundled with Python)
-Install required libraries:
-Open a terminal or command prompt and navigate to your project directory. Then, run the following command:
+## Installation
 
-Bash
-pip install -r requirements.txt
-Use code with caution.
-This will install the necessary libraries (opencv-python and easyocr) listed in the requirements.txt file.
+To use this script, you need to have Python installed on your system. You can install the required libraries using pip:
 
-Usage
-Run the script:
-Open a terminal or command prompt and navigate to your project directory. Then, run the following command:
+```bash
+pip install opencv-python
+pip install easyocr
 
-Bash
-python main.py
-Use code with caution.
-This will execute the main.py script, which will prompt you to provide an image path or use a default image.
 
 Select or provide an image:
 
@@ -33,14 +23,11 @@ View the results:
 
 The script will perform OCR on the image and display the extracted text on the console.
 Project Structure
-
-
 ocr_project/
 ├── requirements.txt   # List of required libraries
 ├── ocr_utils.py      # Contains the OCR function
 └── main.py           # Main script for testing
-
-
 requirements.txt: This file specifies the libraries needed for the project.
 ocr_utils.py: This file contains the core function (perform_ocr) that handles image reading, OCR processing, and text extraction.
 main.py: This is the main script that demonstrates how to use the perform_ocr function and displays the extracted text.
+Additional Notes
