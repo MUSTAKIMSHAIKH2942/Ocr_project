@@ -33,10 +33,14 @@ View the results:
 
 The script will perform OCR on the image and display the extracted text on the console.
 Project Structure
+
+
 ocr_project/
 ├── requirements.txt   # List of required libraries
 ├── ocr_utils.py      # Contains the OCR function
 └── main.py           # Main script for testing
+
+
 requirements.txt: This file specifies the libraries needed for the project.
 ocr_utils.py: This file contains the core function (perform_ocr) that handles image reading, OCR processing, and text extraction.
 main.py: This is the main script that demonstrates how to use the perform_ocr function and displays the extracted text.
